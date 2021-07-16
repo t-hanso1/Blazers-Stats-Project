@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: red;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+/*
+ -Background color to red (go Blazers!)
+ -text color white
+ -no margin / padding displayed
+ */
+
+nav {
+  text-align: center;
+  padding: 2px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+/*
+ -header highlight color is black
+ -generate padding around hheader element
+ -allows header to adjust based on browser size
+  */
+
+#main_header {
+  font-family: "Courier New";
+}
+/*
+ changed font for header tag
+ */
+
+#feedback {
+  display: block;
+}
+
+/*
+ for users to type feedback in block styled textbox
+ */
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+/*
+ potential sylying for logo if added
+ */
